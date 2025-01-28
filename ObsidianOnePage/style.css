@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header-parent{
+    display: flex;
+    background-color:#151515; 
+    width:100%;
+}
+
+.logo-parent{
+    display: flex;
+}
+
+.header-child-logo-img{
+    margin:5%;
+    width:50px;
+    height:auto;
+}
+
+.header-child-logo-txt{
+    font-size: larger;
+    align-items:center;
+    align-content: center;
+    color:white;
+}
+
+.header-child-link{
+    display:flex;
+    justify-content: flex-end;
+    gap:20px;
+    margin-left: auto;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.top-body-button-parent{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+.center-panel{
+    display:flex;
+    align-items: center;
+}
+
+.text-box{
+    flex:1;
+}
