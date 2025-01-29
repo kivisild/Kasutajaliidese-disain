@@ -38,13 +38,85 @@ body{
     color:white;
     display:flex;
     justify-content: center;
+    padding-bottom:10%;
+    padding-top:2%;
+    gap: 25px;
 }
 
 .center-panel{
     display:flex;
     align-items: center;
+    max-width:1000px;
+    margin: 0 auto;
 }
 
 .text-box{
     flex:1;
+    align-items: center;
+    text-align:center;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    
+}
+
+p{
+    font-size: 16px;
+    color: white;
+}
+
+h1{
+    color:white;
+}
+
+.top-part{
+    background-color:#151515;
+}
+
+.plans-a{
+    padding-bottom:1%;
+}
+
+.gradient-center-panel{
+    background-color:#151515;
+    background-image: linear-gradient(#151515, blue, #151515);
+}
+
+.bottom-part{
+    background-color: #151515;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.top-part,
+.gradient-center-panel,
+.bottom-part {
+  margin: 0;
+  padding: 0;
+}
+
+.obsidian-img-class{
+    background-color: #151515;
+    padding-bottom: 7%;
+
+}
+
+.obsidian-img-class-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.purple-button{
+    background-color:#A000B9;
+    font-size: 18px;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 1% 5px 1%;
+    border: none;
+    font-weight: 500;
 }
