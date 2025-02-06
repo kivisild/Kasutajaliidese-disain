@@ -8,24 +8,24 @@ body{
     width:100%;
 }
 
-.logo-parent{
+.header-parent__logo-parent{
     display: flex;
 }
 
-.header-child-logo-img{
+.logo-parent__logo-img{
     margin:5%;
     width:50px;
     height:auto;
 }
 
-.header-child-logo-txt{
+.logo-parent__logo-text{
     font-size: larger;
     align-items:center;
     align-content: center;
     color:white;
 }
 
-.header-child-link{
+.header-parent__link{
     display:flex;
     justify-content: flex-end;
     gap:20px;
@@ -34,7 +34,7 @@ body{
     align-items: center;
 }
 
-.top-body-button-parent{
+.top-body__button-parent{
     color:white;
     display:flex;
     justify-content: center;
@@ -43,14 +43,14 @@ body{
     gap: 25px;
 }
 
-.center-panel{
+.center-gradient__center-panel{
     display:flex;
     align-items: center;
     max-width:1000px;
     margin: 0 auto;
 }
 
-.text-box{
+.center-panel__text-box{
     flex:1;
     align-items: center;
     text-align:center;
@@ -71,20 +71,16 @@ h1{
     color:white;
 }
 
-.top-part{
+.top-body{
     background-color:#151515;
 }
 
-.plans-a{
-    padding-bottom:1%;
-}
-
-.gradient-center-panel{
+.center-gradient{
     background-color:#151515;
     background-image: linear-gradient(#151515, blue, #151515);
 }
 
-.bottom-part{
+.bottom-body{
     background-color: #151515;
 }
 
@@ -92,20 +88,20 @@ h1, h2, h3, p {
     margin: 0;
 }
 
-.top-part,
-.gradient-center-panel,
-.bottom-part {
+.top-body,
+.center-gradient,
+.bottom-body {
   margin: 0;
   padding: 0;
 }
 
-.obsidian-img-class{
+.obsidian-img-parent{
     background-color: #151515;
     padding-bottom: 7%;
 
 }
 
-.obsidian-img-class-img{
+.obsidian-img-parent__img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -120,4 +116,10 @@ h1, h2, h3, p {
     padding: 5px 1% 5px 1%;
     border: none;
     font-weight: 500;
+}
+
+.bottom-body__heading{
+    font-size:33px;
+    color: white;
+    text-align: center;
 }
