@@ -6,6 +6,7 @@
 #rounded-circle{
     width: 40px;
     height: 40px;
+    min-inline-size: 40px;
 }
 
 #parent-container{
@@ -23,4 +24,14 @@
 #parent-container__site-select{
     padding-top: 2%; 
     padding-bottom: 2%;
+}
+
+/* change all .btn to .btn-sm size on xs */
+@media (max-width: 768px) {
+  .btn {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    width:100%
+  }
 }
