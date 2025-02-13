@@ -2,3 +2,25 @@
     padding-inline-start: 2%;
     padding-inline-end: 2%;
     }
+
+#rounded-circle{
+    width: 40px;
+    height: 40px;
+}
+
+#parent-container{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#parent-container__site-input-container{
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    background-color: lightgray; 
+    border-radius: 10px;
+}
+
+#parent-container__site-select{
+    padding-top: 2%; 
+    padding-bottom: 2%;
+}
