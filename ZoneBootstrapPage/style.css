@@ -14,7 +14,7 @@
     padding-bottom: 1%;
 }
 
-#parent-container__site-input-container{
+#parent-container__input{
     padding-top: 2%; 
     padding-bottom: 2%; 
     background-color: lightgray; 
@@ -26,12 +26,34 @@
     padding-bottom: 2%;
 }
 
-/* change all .btn to .btn-sm size on xs */
-@media (max-width: 768px) {
-  .btn {
-    padding:2px 4px;
-    font-size:80%;
-    line-height: 1;
-    width:100%
+#site-search-btn{
+    width:8%;
+    border-radius: 10px;
+}
+
+#forward-btn{
+    width:15%;
+}
+
+@media (max-width: 500px) {
+  #buying-progress{
+    width: 100% !important;
+  }
+
+  #column{
+    margin:0;
+  }
+
+  #site-search-btn{
+    width:fit-content;
   }
 }
+
+@media (max-width: 650px) {
+    #site-search-btn{
+        width:fit-content;
+    }
+    #forward-btn{
+        width:fit-content;
+    }
+    }
