@@ -35,20 +35,6 @@
     width:15%;
 }
 
-@media (max-width: 500px) {
-  #buying-progress{
-    width: 100% !important;
-  }
-
-  #column{
-    margin:0;
-  }
-
-  #site-search-btn{
-    width:fit-content;
-  }
-}
-
 @media (max-width: 650px) {
     #site-search-btn{
         width:fit-content;
@@ -56,4 +42,4 @@
     #forward-btn{
         width:fit-content;
     }
-    }
+}
