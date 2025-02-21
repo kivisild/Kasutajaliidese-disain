@@ -1,3 +1,5 @@
+/* Esimene leht */
+
 #countryTLD{
     padding-inline-start: 2%;
     padding-inline-end: 2%;
@@ -42,4 +44,16 @@
     #forward-btn{
         width:fit-content;
     }
+}
+
+
+/* Teine leht */
+#business-checkbox{
+    direction:rtl;
+    text-align:left;
+}
+
+#term-checkbox{
+    direction:rtl;
+    text-align:center;
 }
