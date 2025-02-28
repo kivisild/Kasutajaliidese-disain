@@ -57,3 +57,7 @@
     direction:rtl;
     text-align:center;
 }
+
+#input-form-text{
+    width: 175px;
+}
