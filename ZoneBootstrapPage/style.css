@@ -54,10 +54,32 @@
 }
 
 #term-checkbox{
-    direction:rtl;
-    text-align:center;
+    direction: rtl;
+    text-align: center;
 }
 
-#input-form-text{
-    width: 175px;
+#input-form-txt{
+    width: 12em;
+}
+
+#business-checkbox{
+    direction: rtl;
+    text-align: left;
+}
+
+#summary-card{
+    background-color: lightgray;
+    max-width: 500px;
+    border-color: black;
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 10px;
+}
+
+#underline-section{
+    border-bottom: 1px solid black;
+}
+
+#nav-btn{
+    text-align: center;
 }
