@@ -95,6 +95,26 @@
     border-radius: 10px;
 }
 
-#back-to-step-1-btn{
-    
+@media (max-width: 1600px){
+    #summary-container{
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 1100px){
+    #summary-container{
+        width:600px;
+    }
+
+}
+
+@media (max-width: 575px){
+    #summary-container{
+        width: 300px;
+    }
+}
+
+body{
+    overflow-x: hidden;
 }
