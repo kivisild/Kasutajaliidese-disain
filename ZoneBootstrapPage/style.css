@@ -35,6 +35,7 @@
 
 #forward-btn{
     width:15%;
+    border: 1px solid black;
 }
 
 @media (max-width: 650px) {
@@ -82,4 +83,18 @@
 
 #nav-btn{
     text-align: center;
+    border: 1px solid black;
+}
+
+/* Kolmas leht */
+
+#summary-container{
+    width: 400px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#back-to-step-1-btn{
+    
 }
