@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="900px" height="900px">
+
+    <defs>
+        <linearGradient id="houseLinearGradient"
+            x1="0%" y1="0%"
+            x2="0%" y2="100%"
+            spreadMethod="pad">
+        <stop offset="75%" stop-color="red" stop-opacity="1"/>
+        <stop offset="95%" stop-color="lightsalmon" stop-opacity="1"/>
+        </linearGradient>
+
+        <linearGradient id="skyLinearGradient"
+            x1="0%" y1="0%"
+            x2="0%" y2="100%"
+            spreadMethod="pad">
+        <stop offset="0%" stop-color="lightblue" stop-opacity="1"/>
+        <stop offset="5%" stop-color="lightblue" stop-opacity="1"/>
+        <stop offset="95%" stop-color="yellow" stop-opacity="1"/>
+        <stop offset="100%" stop-color="orange" stop-opacity="1"/>
+        </linearGradient>
+        
+        <linearGradient id="sunLinearGradient"
+            x1="0%" y1="0%"
+            x2="100%" y2="0%"
+            spreadMethod="pad">
+        <stop offset="50%" stop-color="red" stop-opacity="1"/>
+        <stop offset="100%" stop-color="crimson" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+    <!--Sky-->
+    <rect x="0" y="0" height="300" width="900"
+    style="fill: url(#skyLinearGradient);"/>
+    <!--Grass-->
+    <rect x="0" y="300" height="600" width="900"
+    style="fill: lightgreen;"/>
+    <!--House-->
+    <rect x="350" y="300" height="200" width="200" 
+    style="stroke: red; fill: url(#houseLinearGradient);"/>
+    <!--Door-->
+    <rect x="450" y="400" height="100" width="60" 
+    style="stroke: white; fill: gray; stroke-width: 4;"/>
+    <!--Window-->
+    <rect x="370" y="350" height="75" width="65"
+    style="stroke: white; fill: black; stroke-width: 3;"/>
+    <!--Doorknob-->
+    <circle cx="495" cy="455" r="5" style="stroke:black; fill:black;"/>
+    <!--Chimney-->
+    <rect x="370" y="200" height="75" width="30"
+    style="fill: gray; stroke: gray;"/>
+    <!--Roof-->
+    <polyline points="320,320 445,200 580,320" 
+    style="fill: lightgray; stroke: lightgray;"/>
+    <!--Road-->
+    <path 
+    d="M 250 900 C 600 800, 500 450, 450 550 " 
+    stroke="black" stroke-width="50" fill="none"/>
+    <!--Man-->
+    <path id="myPath" d="M 250 900 C 600 800, 500 450, 450 550" 
+        fill="none"/>
+    <image href="male-programmer-svgrepo-com.svg" width="50" height="100">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath xlink:href="#myPath" />
+    </animateMotion>
+  </image>
+    <!--Sun-->
+    <circle cx="100" cy="100" r="40" style="fill: url(#sunLinearGradient);">
+        <animateTransform attributeName="transform" attributeType="XML"
+        type="rotate" from="0 100 100" to="360 100 100" dur="10s"
+        repeatCount="indefinite"/>
+    </circle>
+
+</svg>
